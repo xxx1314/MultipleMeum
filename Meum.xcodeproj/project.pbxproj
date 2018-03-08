@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18573E9E1EADD5750095EECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573E9D1EADD5750095EECD /* main.m */; };
+		18573EA11EADD5750095EECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573EA01EADD5750095EECD /* AppDelegate.m */; };
+		18573EA41EADD5750095EECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573EA31EADD5750095EECD /* ViewController.m */; };
+		18573EA71EADD5760095EECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18573EA51EADD5760095EECD /* Main.storyboard */; };
+		18573EAA1EADD5760095EECD /* Meum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18573EA81EADD5760095EECD /* Meum.xcdatamodeld */; };
+		18573EAC1EADD5760095EECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18573EAB1EADD5760095EECD /* Assets.xcassets */; };
+		18573EAF1EADD5760095EECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18573EAD1EADD5760095EECD /* LaunchScreen.storyboard */; };
+		18573EBA1EADD5790095EECD /* MeumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573EB91EADD5790095EECD /* MeumTests.m */; };
+		18573EC51EADD5790095EECD /* MeumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18573EC41EADD5790095EECD /* MeumUITests.m */; };
+		18ABEABD1EC978BE000D30E2 /* MeumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ABEABC1EC978BE000D30E2 /* MeumView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18573EB61EADD5780095EECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18573E911EADD5740095EECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18573E981EADD5750095EECD;
+			remoteInfo = Meum;
+		};
+		18573EC11EADD5790095EECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18573E911EADD5740095EECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18573E981EADD5750095EECD;
+			remoteInfo = Meum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18573E991EADD5750095EECD /* Meum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18573E9D1EADD5750095EECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18573E9F1EADD5750095EECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18573EA01EADD5750095EECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18573EA21EADD5750095EECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18573EA31EADD5750095EECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18573EA61EADD5760095EECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18573EA91EADD5760095EECD /* Meum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meum.xcdatamodel; sourceTree = "<group>"; };
+		18573EAB1EADD5760095EECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18573EAE1EADD5760095EECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18573EB01EADD5760095EECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18573EB51EADD5780095EECD /* MeumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18573EB91EADD5790095EECD /* MeumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeumTests.m; sourceTree = "<group>"; };
+		18573EBB1EADD5790095EECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18573EC01EADD5790095EECD /* MeumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18573EC41EADD5790095EECD /* MeumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeumUITests.m; sourceTree = "<group>"; };
+		18573EC61EADD5790095EECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ABEABB1EC978BE000D30E2 /* MeumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeumView.h; sourceTree = "<group>"; };
+		18ABEABC1EC978BE000D30E2 /* MeumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeumView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18573E961EADD5750095EECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EB21EADD5780095EECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EBD1EADD5790095EECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18573E901EADD5740095EECD = {
+			isa = PBXGroup;
+			children = (
+				18573E9B1EADD5750095EECD /* Meum */,
+				18573EB81EADD5780095EECD /* MeumTests */,
+				18573EC31EADD5790095EECD /* MeumUITests */,
+				18573E9A1EADD5750095EECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18573E9A1EADD5750095EECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18573E991EADD5750095EECD /* Meum.app */,
+				18573EB51EADD5780095EECD /* MeumTests.xctest */,
+				18573EC01EADD5790095EECD /* MeumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18573E9B1EADD5750095EECD /* Meum */ = {
+			isa = PBXGroup;
+			children = (
+				18573E9F1EADD5750095EECD /* AppDelegate.h */,
+				18573EA01EADD5750095EECD /* AppDelegate.m */,
+				18573EA21EADD5750095EECD /* ViewController.h */,
+				18573EA31EADD5750095EECD /* ViewController.m */,
+				18573EA51EADD5760095EECD /* Main.storyboard */,
+				18573EAB1EADD5760095EECD /* Assets.xcassets */,
+				18573EAD1EADD5760095EECD /* LaunchScreen.storyboard */,
+				18573EB01EADD5760095EECD /* Info.plist */,
+				18573EA81EADD5760095EECD /* Meum.xcdatamodeld */,
+				18573E9C1EADD5750095EECD /* Supporting Files */,
+				18ABEABB1EC978BE000D30E2 /* MeumView.h */,
+				18ABEABC1EC978BE000D30E2 /* MeumView.m */,
+			);
+			path = Meum;
+			sourceTree = "<group>";
+		};
+		18573E9C1EADD5750095EECD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18573E9D1EADD5750095EECD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18573EB81EADD5780095EECD /* MeumTests */ = {
+			isa = PBXGroup;
+			children = (
+				18573EB91EADD5790095EECD /* MeumTests.m */,
+				18573EBB1EADD5790095EECD /* Info.plist */,
+			);
+			path = MeumTests;
+			sourceTree = "<group>";
+		};
+		18573EC31EADD5790095EECD /* MeumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18573EC41EADD5790095EECD /* MeumUITests.m */,
+				18573EC61EADD5790095EECD /* Info.plist */,
+			);
+			path = MeumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18573E981EADD5750095EECD /* Meum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18573EC91EADD5790095EECD /* Build configuration list for PBXNativeTarget "Meum" */;
+			buildPhases = (
+				18573E951EADD5750095EECD /* Sources */,
+				18573E961EADD5750095EECD /* Frameworks */,
+				18573E971EADD5750095EECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meum;
+			productName = Meum;
+			productReference = 18573E991EADD5750095EECD /* Meum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18573EB41EADD5780095EECD /* MeumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18573ECC1EADD5790095EECD /* Build configuration list for PBXNativeTarget "MeumTests" */;
+			buildPhases = (
+				18573EB11EADD5780095EECD /* Sources */,
+				18573EB21EADD5780095EECD /* Frameworks */,
+				18573EB31EADD5780095EECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18573EB71EADD5780095EECD /* PBXTargetDependency */,
+			);
+			name = MeumTests;
+			productName = MeumTests;
+			productReference = 18573EB51EADD5780095EECD /* MeumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18573EBF1EADD5790095EECD /* MeumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18573ECF1EADD5790095EECD /* Build configuration list for PBXNativeTarget "MeumUITests" */;
+			buildPhases = (
+				18573EBC1EADD5790095EECD /* Sources */,
+				18573EBD1EADD5790095EECD /* Frameworks */,
+				18573EBE1EADD5790095EECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18573EC21EADD5790095EECD /* PBXTargetDependency */,
+			);
+			name = MeumUITests;
+			productName = MeumUITests;
+			productReference = 18573EC01EADD5790095EECD /* MeumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18573E911EADD5740095EECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hello;
+				TargetAttributes = {
+					18573E981EADD5750095EECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18573EB41EADD5780095EECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18573E981EADD5750095EECD;
+					};
+					18573EBF1EADD5790095EECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18573E981EADD5750095EECD;
+					};
+				};
+			};
+			buildConfigurationList = 18573E941EADD5740095EECD /* Build configuration list for PBXProject "Meum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18573E901EADD5740095EECD;
+			productRefGroup = 18573E9A1EADD5750095EECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18573E981EADD5750095EECD /* Meum */,
+				18573EB41EADD5780095EECD /* MeumTests */,
+				18573EBF1EADD5790095EECD /* MeumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18573E971EADD5750095EECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18573EAF1EADD5760095EECD /* LaunchScreen.storyboard in Resources */,
+				18573EAC1EADD5760095EECD /* Assets.xcassets in Resources */,
+				18573EA71EADD5760095EECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EB31EADD5780095EECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EBE1EADD5790095EECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18573E951EADD5750095EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18573EA41EADD5750095EECD /* ViewController.m in Sources */,
+				18573EAA1EADD5760095EECD /* Meum.xcdatamodeld in Sources */,
+				18573EA11EADD5750095EECD /* AppDelegate.m in Sources */,
+				18ABEABD1EC978BE000D30E2 /* MeumView.m in Sources */,
+				18573E9E1EADD5750095EECD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EB11EADD5780095EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18573EBA1EADD5790095EECD /* MeumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18573EBC1EADD5790095EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18573EC51EADD5790095EECD /* MeumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18573EB71EADD5780095EECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18573E981EADD5750095EECD /* Meum */;
+			targetProxy = 18573EB61EADD5780095EECD /* PBXContainerItemProxy */;
+		};
+		18573EC21EADD5790095EECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18573E981EADD5750095EECD /* Meum */;
+			targetProxy = 18573EC11EADD5790095EECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18573EA51EADD5760095EECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18573EA61EADD5760095EECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18573EAD1EADD5760095EECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18573EAE1EADD5760095EECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18573EC71EADD5790095EECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18573EC81EADD5790095EECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18573ECA1EADD5790095EECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.Meum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18573ECB1EADD5790095EECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.Meum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18573ECD1EADD5790095EECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.MeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meum.app/Meum";
+			};
+			name = Debug;
+		};
+		18573ECE1EADD5790095EECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.MeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meum.app/Meum";
+			};
+			name = Release;
+		};
+		18573ED01EADD5790095EECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.MeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meum;
+			};
+			name = Debug;
+		};
+		18573ED11EADD5790095EECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.MeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18573E941EADD5740095EECD /* Build configuration list for PBXProject "Meum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18573EC71EADD5790095EECD /* Debug */,
+				18573EC81EADD5790095EECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18573EC91EADD5790095EECD /* Build configuration list for PBXNativeTarget "Meum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18573ECA1EADD5790095EECD /* Debug */,
+				18573ECB1EADD5790095EECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18573ECC1EADD5790095EECD /* Build configuration list for PBXNativeTarget "MeumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18573ECD1EADD5790095EECD /* Debug */,
+				18573ECE1EADD5790095EECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18573ECF1EADD5790095EECD /* Build configuration list for PBXNativeTarget "MeumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18573ED01EADD5790095EECD /* Debug */,
+				18573ED11EADD5790095EECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18573EA81EADD5760095EECD /* Meum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18573EA91EADD5760095EECD /* Meum.xcdatamodel */,
+			);
+			currentVersion = 18573EA91EADD5760095EECD /* Meum.xcdatamodel */;
+			path = Meum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18573E911EADD5740095EECD /* Project object */;
+}
